@@ -1,0 +1,215 @@
+body{
+    background-color: #B3A894;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 2rem;
+    background-color: #69655D;
+}
+.header-logo {
+    position: relative; 
+}
+  
+.header-logo img {
+position: absolute;
+    width: 6rem;
+    height: 3rem;
+    top: 7px;
+    right: 0;
+}  
+.seta{
+    width: 3rem;
+    height: auto;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 2rem;
+    background-color: #B3A894;
+}
+
+a{
+    text-decoration: none ;
+    width: 100%;
+    color: #0d0d0d;
+    font-family: 'EB Garamond', serif;
+}
+
+h2{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    background-color: hsl(39, 14%, 60%);
+}
+
+.imagem{
+    position: relative;
+    height: auto;
+    padding: 2rem;
+}
+
+
+.espaçamentoindex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0; 
+    text-align: center;
+}
+.espaçamentoindex li {
+    padding: 1rem 0;
+    border-right: 0.05rem solid #0d0d0d;
+}
+.espaçamentoindex li:last-child {
+    border-right: none;
+}
+  
+.liindex{
+    flex-grow: 1;
+    border-right: 0.1rem; 
+    padding: 0.62rem; 
+    text-align: center; 
+}
+
+.quantpessoas{
+    border: 0.1rem solid #0d0d0d ;
+    width: 20%;
+    margin: 2rem;
+}
+
+.limite{
+    border: 0.1rem solid #0d0d0d ;
+    width: 20%;
+    margin: 2rem;
+}
+
+.celular{
+    width: 15rem;
+    height: 30rem;
+    padding: 2rem;
+}
+
+.itens{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.lista_treinos_casa{ 
+    margin: 2rem;
+    padding: 2rem;
+    width: 40%;
+    border: 0.1rem solid #0d0d0d; 
+}
+
+
+.qrcode{
+    border: 0.1rem solid #0d0d0d;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.casa{
+    border: 0.1rem solid #0d0d0d;
+    padding: 1rem;
+}
+
+
+.conjuntotreinos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.borda_direita{
+    
+    padding-right: 1rem;
+}
+
+.Pesquisar{
+    background-color: #F2F2F2;
+}
+
+button{
+    background:none;
+    border: none;
+}
+
+.pag_principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pag_principal section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pag_principal section a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagem_pag1 {
+width: 80%;
+padding-top: 1rem;
+padding-bottom: 2rem;
+}
+
+.qrcode2 {
+    width: 100%;
+    height: auto;
+}
+
+.casa2 {
+    width: 100%;
+    height: auto;
+}
+
+.mapa_acad {
+    width: 100%;
+}
+
+.yt {
+    width: 100%;
+}
+
+.div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: #0D0D0D 0.1rem solid;
+    padding: 2rem;
+}
+.div ul{
+    margin-right: 10px;
+}
+.Treinos{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border: #0D0D0D 0.1rem solid;
+}
+.Treinos li{
+    padding: 1rem;
+    border-bottom: #0D0D0D 0.1rem solid;
+}
