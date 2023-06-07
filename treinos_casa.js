@@ -38,9 +38,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
         localStorage.setItem("exercicio_4", "Abdominal Inverso");
 
         localStorage.setItem('equipamento_1', 'Banco Declinado');
-        localStorage.setItem('equipamento_2', 'Banco Declinado');
-        localStorage.setItem('equipamento_3', 'Banco Declinado');
-        localStorage.setItem('equipamento_4', 'Banco Declinado');
+        localStorage.setItem('equipamento_2', 'Banco Supino Regulável');
+        localStorage.setItem('equipamento_3', 'Roda Abdominal');
+        localStorage.setItem('equipamento_4', 'Plataforma Abdominal');
     });
 
     botao_4.addEventListener("click", function(event) {
